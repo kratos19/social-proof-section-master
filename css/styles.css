@@ -1,0 +1,88 @@
+body {
+    font-size: 15px;
+    font-family: "Spartan";
+}
+
+.social-proof-wrapper {
+    width: calc(100% - 46px);
+    margin: 82px auto;
+}
+
+.social-proof-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-proof-text h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.social-proof-text p {
+    color: hsl(303, 10%, 53%);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.social-proof-text img {
+    margin: 15px 0px;
+}
+
+.social-proof-rating h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+}
+
+.social-proof-rating {
+    background-color: #f7f2f8;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.social-proof-review {
+    padding: 40px 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: hsl(300, 24%, 96%);
+}
+
+.social-proof-container-rating {
+    margin-top: 48px;
+}
+
+.social-proof-wrapper-rating {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+}
+
+.social-proof-image img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 22px;
+}
+
+.name-verified {
+    display: inline-block;
+}
+
+.name-verified p {
+    margin: 0;
+}
+
+.name-verified .name {
+    margin-bottom: 4px;
+}
+
+.name-verified .verified {
+    color: hsl(333, 80%, 67%);
+}
+
+.social-proof-image {
+    margin-bottom: 30px;
+}
