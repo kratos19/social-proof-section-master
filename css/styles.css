@@ -1,6 +1,10 @@
 body {
     font-size: 15px;
     font-family: "Spartan";
+    background-image: url(../images/bg-pattern-top-mobile.svg),
+        url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 .social-proof-wrapper {
@@ -85,4 +89,97 @@ body {
 
 .social-proof-image {
     margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1111px) {
+    html {
+        height: 100%;
+    }
+
+    body {
+        background-image: url(../images/bg-pattern-top-desktop.svg),
+            url(../images/bg-pattern-bottom-desktop.svg);
+    }
+
+    .social-proof-wrapper {
+        width: 1110px;
+        margin: 130px auto;
+    }
+
+    .social-proof-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .social-text-container {
+        width: 425px;
+    }
+
+    .social-text-container h1 {
+        font-size: 40px;
+    }
+
+    .social-proof-text p {
+        font-size: 14px;
+    }
+
+    .social-rating-wrapper {
+        width: 445px;
+    }
+
+    .rating-stars {
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    .social-proof-rating h3 {
+        display: inline-block;
+        position: relative;
+        top: -16px;
+        margin-left: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .social-proof-rating {
+        position: relative;
+    }
+
+    .social-proof-rating:nth-child(1) {
+        left: -90px;
+    }
+
+    .social-proof-rating:nth-child(2) {
+        left: -45px;
+    }
+
+    .social-proof-container-rating {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-proof-wrapper-rating {
+        width: 350px;
+        position: relative;
+    }
+
+    .social-proof-wrapper-rating:nth-child(2) {
+        top: 10px;
+    }
+
+    .social-proof-wrapper-rating:nth-child(3) {
+        top: 20px;
+    }
+
+    .social-proof-review .description {
+        margin: 0;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .social-proof-review {
+        margin: 0;
+    }
 }
